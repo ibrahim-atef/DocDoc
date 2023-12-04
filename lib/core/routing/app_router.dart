@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:xx/core/routing/routes.dart';
+import 'package:xx/features/login/ui/screens/login_screen.dart';
 
 import '../../features/onboarding/onboarding_screen.dart';
 
@@ -9,7 +10,7 @@ class AppRouter {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => OnboardingScreen());
       case Routes.loginScreen:
-        return MaterialPageRoute(builder: (_) => Placeholder());
+        return MaterialPageRoute(builder: (_) => LoginScreen());
       // يمكنك إضافة حالات أخرى حسب الحاجة
       default:
         return MaterialPageRoute(

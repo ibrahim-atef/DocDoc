@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:xx/core/helpers/extensions.dart';
+import 'package:xx/core/routing/routes.dart';
 import 'package:xx/core/theaming/colors.dart';
 import 'package:xx/core/theaming/styles.dart';
 
@@ -22,7 +24,9 @@ class GetStartedButton extends StatelessWidget {
           ),
         ),
       ),
-      onPressed: () {},
+      onPressed: () {
+        context.pushNamed(Routes.loginScreen);
+      },
       child: Text(
         "Get Started",
         style: TextStyles.font16WhiteW600,

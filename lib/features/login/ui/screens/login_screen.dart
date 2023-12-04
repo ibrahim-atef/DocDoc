@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -6,8 +5,11 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('Onboarding Screen'),),
+    return Scaffold(
+
+      body: Center(
+        child: Text('Login Screen'),
+      ),
     );
   }
 }
