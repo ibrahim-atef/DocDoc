@@ -18,4 +18,9 @@ class TextStyles {
     fontWeight: FontWeight.normal,
     color: ColorsManager.grey,
   );
+  static TextStyle font16WhiteW600 = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+  );
 }

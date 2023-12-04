@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:xx/features/onboarding/widgets/dock_logo_and_name.dart';
 import 'package:xx/features/onboarding/widgets/doctor_image_and_text.dart';
+import 'package:xx/features/onboarding/widgets/get_started_button.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -16,12 +17,16 @@ class OnboardingScreen extends StatelessWidget {
             top: 30.h,
             bottom: 30.h,
           ),
-          child:  Column(
+          child: Column(
             children: [
-             const DockLogoAndName(),
-              SizedBox(height: 30.h,),
+              const DockLogoAndName(),
+              SizedBox(
+                height: 30.h,
+              ),
               const DoctorImageAndText(),
-              SizedBox(height: 30.h,),
+              SizedBox(
+                height: 30.h,
+              ),
               const GetStartedButton()
             ],
           ),

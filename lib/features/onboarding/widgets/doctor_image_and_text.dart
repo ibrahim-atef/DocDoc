@@ -23,6 +23,7 @@ class DoctorImageAndText extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
 
+
               Text(
                 "Manage and schedule all of your medical appointments easily\n with Docdoc to get a new experience.",
                 textAlign: TextAlign.center,
