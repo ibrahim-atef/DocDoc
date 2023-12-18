@@ -40,7 +40,7 @@ class DoctorImageAndText extends StatelessWidget {
 class OpacityFromBottomImage extends StatelessWidget {
   final String imagePath;
 
-  OpacityFromBottomImage({required this.imagePath});
+  const OpacityFromBottomImage({required this.imagePath});
 
   @override
   Widget build(BuildContext context) {

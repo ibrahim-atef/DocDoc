@@ -7,7 +7,7 @@ import 'package:xx/core/theaming/colors.dart';
 class DockApp extends StatelessWidget {
   final AppRouter appRouter;
 
-  const DockApp({super.key, required this.appRouter});
+  const DockApp({ super.key, required this.appRouter});
 
   @override
   Widget build(BuildContext context) {
